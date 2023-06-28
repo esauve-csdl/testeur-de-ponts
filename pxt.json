@@ -1,0 +1,33 @@
+{
+    "name": "Testeur de ponts",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "HX711": "github:daferdur/pxt-myhx711#v1.0.18"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.8",
+        "tag": "v6.0.8",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/906fae22ad7170d594c660ce9ca627384dc36148",
+        "target": "6.0.8",
+        "pxt": "9.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
